@@ -1,6 +1,7 @@
 ﻿# Client Practical Exam System
 
 The REST API provides the hashing and validation for the given user_name. I have used controller to accept the request and delegate it to the user service to generate the required hashing value and then validate the user against database to send mail using mail service to the recipient for success response through smtp protocol.
+
 I have used derby database for my development purpose, please change it to your database with respective properties in Data Source class. Created test mail account for a sender configuration, please update recipient mail address in Mail Service class accordingly. 
 
 ## Getting Started
